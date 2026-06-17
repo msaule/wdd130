@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: #e8eced;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .spotlight {
+            background-image: url("images/christus.webp");
+            background-size: cover;
+            background-position: center;
+            border: 6px solid #000000;
+            border-radius: 30px;
+            box-sizing: border-box;
+            width: 710px;
+            min-height: 550px;
+            padding: 12px 45px 28px 150px;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: #ffffff;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin: 8px 0 10px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+            margin-bottom: 22px;
+        }
+
+        .row.small {
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .apostle {
+            background-color: #ffffff;
+            border: 6px solid #ffffff;
+            border-radius: 50%;
+            box-sizing: border-box;
+            display: block;
+            height: 110px;
+            object-fit: cover;
+            transition: border-color 0.25s, transform 0.25s;
+            width: 110px;
+        }
+
+        .apostle.small {
+            height: 82px;
+            width: 82px;
+        }
+
+        .apostle:hover {
+            border-color: #ffd166;
+            transform: scale(1.06);
+        }
+
+        @media (max-width: 760px) {
+            body {
+                align-items: start;
+                padding: 20px;
+            }
+
+            .spotlight {
+                width: 100%;
+                padding: 18px;
+            }
+
+            .row,
+            .row.small {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="spotlight">
+        <section>
+            <h1>First Presidency</h1>
+            <div class="row">
+                <img class="apostle" src="images/eyring.webp" alt="Henry B. Eyring">
+                <img class="apostle" src="images/oaks.webp" alt="Dallin H. Oaks">
+                <img class="apostle" src="images/christofferson.webp" alt="D. Todd Christofferson">
+            </div>
+        </section>
+
+        <section>
+            <h2>Quorum of the Twelve Apostles</h2>
+            <div class="row small">
+                <img class="apostle small" src="images/holland.webp" alt="Jeffrey R. Holland">
+                <img class="apostle small" src="images/uchtdorf.webp" alt="Dieter F. Uchtdorf">
+                <img class="apostle small" src="images/bednar.webp" alt="David A. Bednar">
+                <img class="apostle small" src="images/cook.webp" alt="Quentin L. Cook">
+            </div>
+            <div class="row small">
+                <img class="apostle small" src="images/christofferson.webp" alt="D. Todd Christofferson">
+                <img class="apostle small" src="images/anderson.webp" alt="Neil L. Andersen">
+                <img class="apostle small" src="images/rasband.webp" alt="Ronald A. Rasband">
+                <img class="apostle small" src="images/stevenson.webp" alt="Gary E. Stevenson">
+            </div>
+            <div class="row small">
+                <img class="apostle small" src="images/renlund.webp" alt="Dale G. Renlund">
+                <img class="apostle small" src="images/gong.webp" alt="Gerrit W. Gong">
+                <img class="apostle small" src="images/soares.webp" alt="Ulisses Soares">
+                <img class="apostle small" src="images/kearon.webp" alt="Patrick Kearon">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

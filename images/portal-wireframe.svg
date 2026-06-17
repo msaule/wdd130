@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700" role="img" aria-labelledby="title desc">
+  <title id="title">Portal page wireframe</title>
+  <desc id="desc">A labeled wireframe for the WDD 130 portal page.</desc>
+  <rect width="1200" height="1700" fill="#faf8f3"/>
+
+  <rect x="40" y="30" width="1120" height="120" fill="#ffffff" stroke="#22303C" stroke-width="4"/>
+  <rect x="70" y="52" width="90" height="76" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="115" y="98" text-anchor="middle" font-family="Verdana" font-size="22" font-weight="700" fill="#22303C">MS</text>
+  <text x="285" y="98" font-family="Verdana" font-size="28" fill="#2B2B2B">Home</text>
+  <text x="470" y="98" font-family="Verdana" font-size="28" fill="#2B2B2B">WWR</text>
+  <text x="650" y="98" font-family="Verdana" font-size="28" fill="#2B2B2B">ICE</text>
+  <text x="860" y="98" font-family="Verdana" font-size="28" fill="#2B2B2B">About Me</text>
+
+  <rect x="40" y="180" width="1120" height="320" fill="#ffffff" stroke="#22303C" stroke-width="4"/>
+  <rect x="760" y="220" width="320" height="210" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="760" y1="220" x2="1080" y2="430" stroke="#2B2B2B" stroke-width="2"/>
+  <line x1="1080" y1="220" x2="760" y2="430" stroke="#2B2B2B" stroke-width="2"/>
+  <text x="120" y="260" font-family="Trebuchet MS" font-size="52" fill="#22303C">Portal Welcome Section</text>
+  <text x="120" y="315" font-family="Verdana" font-size="24" fill="#2B2B2B">intro text, quick class summary, and one main link</text>
+  <text x="855" y="335" text-anchor="middle" font-family="Verdana" font-size="24" fill="#2B2B2B">Profile Image</text>
+
+  <rect x="40" y="560" width="1120" height="410" fill="#ffffff" stroke="#22303C" stroke-width="4"/>
+  <text x="80" y="615" font-family="Trebuchet MS" font-size="44" fill="#22303C">Project Cards</text>
+  <rect x="100" y="670" width="280" height="220" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <rect x="460" y="670" width="280" height="220" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <rect x="820" y="670" width="280" height="220" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="240" y="790" text-anchor="middle" font-family="Verdana" font-size="28" fill="#2B2B2B">WWR Card</text>
+  <text x="600" y="790" text-anchor="middle" font-family="Verdana" font-size="28" fill="#2B2B2B">ICE Card</text>
+  <text x="960" y="790" text-anchor="middle" font-family="Verdana" font-size="28" fill="#2B2B2B">About Me Card</text>
+  <text x="240" y="930" text-anchor="middle" font-family="Verdana" font-size="22" fill="#2B2B2B">image + heading + link</text>
+  <text x="600" y="930" text-anchor="middle" font-family="Verdana" font-size="22" fill="#2B2B2B">image + heading + link</text>
+  <text x="960" y="930" text-anchor="middle" font-family="Verdana" font-size="22" fill="#2B2B2B">image + heading + link</text>
+
+  <rect x="40" y="1030" width="540" height="430" fill="#ffffff" stroke="#22303C" stroke-width="4"/>
+  <text x="80" y="1085" font-family="Trebuchet MS" font-size="38" fill="#22303C">Weekly Checklist</text>
+  <line x1="90" y1="1145" x2="115" y2="1145" stroke="#2B2B2B" stroke-width="4"/>
+  <line x1="90" y1="1215" x2="115" y2="1215" stroke="#2B2B2B" stroke-width="4"/>
+  <line x1="90" y1="1285" x2="115" y2="1285" stroke="#2B2B2B" stroke-width="4"/>
+  <line x1="90" y1="1355" x2="115" y2="1355" stroke="#2B2B2B" stroke-width="4"/>
+  <text x="140" y="1154" font-family="Verdana" font-size="24" fill="#2B2B2B">unordered list of goals and links</text>
+  <text x="140" y="1224" font-family="Verdana" font-size="24" fill="#2B2B2B">current assignments</text>
+  <text x="140" y="1294" font-family="Verdana" font-size="24" fill="#2B2B2B">practice items</text>
+  <text x="140" y="1364" font-family="Verdana" font-size="24" fill="#2B2B2B">course reminders</text>
+
+  <rect x="620" y="1030" width="540" height="430" fill="#ffffff" stroke="#22303C" stroke-width="4"/>
+  <text x="660" y="1085" font-family="Trebuchet MS" font-size="34" fill="#22303C">Table and Form</text>
+  <text x="660" y="1130" font-family="Verdana" font-size="20" fill="#66727F">Table area</text>
+  <rect x="660" y="1148" width="460" height="126" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="660" y1="1190" x2="1120" y2="1190" stroke="#2B2B2B" stroke-width="2"/>
+  <line x1="660" y1="1232" x2="1120" y2="1232" stroke="#2B2B2B" stroke-width="2"/>
+  <line x1="815" y1="1148" x2="815" y2="1274" stroke="#2B2B2B" stroke-width="2"/>
+  <line x1="970" y1="1148" x2="970" y2="1274" stroke="#2B2B2B" stroke-width="2"/>
+  <text x="660" y="1325" font-family="Verdana" font-size="20" fill="#66727F">Form area</text>
+  <text x="680" y="1360" font-family="Verdana" font-size="24" fill="#2B2B2B">Name</text>
+  <rect x="790" y="1336" width="260" height="32" fill="#ffffff" stroke="#2B2B2B" stroke-width="2"/>
+  <text x="680" y="1412" font-family="Verdana" font-size="24" fill="#2B2B2B">Message</text>
+  <rect x="790" y="1386" width="260" height="52" fill="#ffffff" stroke="#2B2B2B" stroke-width="2"/>
+
+  <rect x="40" y="1520" width="1120" height="120" fill="#ffffff" stroke="#22303C" stroke-width="4"/>
+  <text x="90" y="1594" font-family="Verdana" font-size="26" fill="#2B2B2B">Footer text</text>
+  <text x="470" y="1594" font-family="Verdana" font-size="26" fill="#2B2B2B">quick links</text>
+  <rect x="920" y="1550" width="60" height="60" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <rect x="995" y="1550" width="60" height="60" fill="#eef1f4" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="950" y="1590" text-anchor="middle" font-family="Verdana" font-size="18" fill="#2B2B2B">A</text>
+  <text x="1025" y="1590" text-anchor="middle" font-family="Verdana" font-size="18" fill="#2B2B2B">B</text>
+</svg>

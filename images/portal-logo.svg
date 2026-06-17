@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">MS logo</title>
+  <desc id="desc">A simple MS monogram in the portal brand colors.</desc>
+  <rect width="160" height="160" rx="18" fill="#22303C"/>
+  <rect x="18" y="18" width="124" height="124" rx="12" fill="#F4EFE7"/>
+  <text x="80" y="102" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="58" font-weight="700" fill="#22303C">MS</text>
+  <rect x="34" y="118" width="92" height="8" rx="4" fill="#B56F50"/>
+</svg>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <section class="intro">
+          <h2>Devotionals I Want to Remember</h2>
+          <p>
+            These are a few devotionals that stood out to me because they are practical and encouraging. I like talks
+            that are easy to connect to real life, not just good quotes for a notebook.
+          </p>
+        </section>
+
+        <table class="devo-table">
+          <thead>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Brad Wilcox</td>
+              <td>His Grace Is Sufficient</td>
+              <td>BYU Devotional</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>Jeffrey R. Holland</td>
+              <td>Remember Lot's Wife</td>
+              <td>BYU Devotional</td>
+              <td>2009</td>
+            </tr>
+            <tr>
+              <td>Dieter F. Uchtdorf</td>
+              <td>Your Great Adventure</td>
+              <td>Worldwide Devotional</td>
+              <td>2019</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <form class="devo-form">
+          <h2>Add Another Favorite</h2>
+          <p>This form is just for practice, but it shows what information I would collect for a new devotional.</p>
+
+          <div class="form-grid">
+            <label for="speaker">Speaker</label>
+            <input type="text" id="speaker" name="speaker" placeholder="Speaker name">
+
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Devotional title">
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" placeholder="Where it was given">
+
+            <label for="year">Year</label>
+            <input type="number" id="year" name="year" placeholder="2026">
+          </div>
+
+          <button type="submit">Add Devotional</button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
