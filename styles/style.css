@@ -328,6 +328,32 @@ h6 {
     font-size: 1.45rem;
 }
 
+.report-page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.report-section {
+    padding: 30px;
+}
+
+.report-section h2 {
+    font-size: 1.7rem;
+}
+
+.report-section p {
+    margin: 0 0 18px;
+}
+
+.report-section p:last-child {
+    margin-bottom: 0;
+}
+
+.report-section a {
+    color: var(--clay);
+    font-weight: 700;
+}
+
 .site-footer {
     align-items: center;
     border-top: 1px solid var(--line);
